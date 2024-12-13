@@ -29,6 +29,7 @@ In order to implement the Intelligent Traffic Signal Simulator, one needs to set
 hardware components and write a program to control the intelligent traffic signal simulator. The 
 layout of the Intelligent Traffic Signal Simulator is displayed in Figure 1. The blocks, which are labeled 
 N1, N2, N3, E1, E2, E3, S1 and W1 are the infrared object detectors.
+
 ![Screenshot (307)](https://github.com/user-attachments/assets/e594b175-3011-4904-b6a1-74f81f0f2718)
 
 
@@ -47,6 +48,7 @@ outputs a 1 when it reaches zero. Thus for a single light, we can draw the state
 shown in Figure 3. 
 To simulate these traffic lights we will use the red, yellow, and green LEDs connected to ld[7:2] on the 
 BASYS board and cycle through the six states shown in Table 1.
+
 ![Screenshot (308)](https://github.com/user-attachments/assets/d4bc3e46-8fda-43ca-88f5-379ba1b1dccb)
 
 
