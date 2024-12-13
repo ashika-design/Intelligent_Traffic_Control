@@ -1,0 +1,8 @@
+Module Intelligent_Traffic_Light_TB();
+reg clk;
+reg clr;
+reg X;
+wire [1: 0]hwy, cntry;
+wire [2: 0]State;
+Intelligent_Traffic_Control dut (clk, clr, X, hwy, cntry, State);
+endmodule
