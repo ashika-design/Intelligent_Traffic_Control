@@ -8,4 +8,4 @@ system. Many traffic light systems operate on a timing mechanism that changes th
 given interval. An intelligent traffic light system senses the presence or absence of vehicles and 
 reacts accordingly. The idea behind intelligent traffic systems is that drivers will not spend 
 unnecessary time waiting for the traffic lights to change. An intelligent traffic system detects traffic in 
-many different ways
+many different ways.
