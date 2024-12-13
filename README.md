@@ -13,6 +13,7 @@ many different ways.
 Traffic Light Control: 
 The traffic signal system consists of three important parts. The first part is the controller, which 
 represents the brain of the traffic system.
+
 ![Screenshot (306)](https://github.com/user-attachments/assets/6f7a3fdb-3a8c-48ac-a07a-a2b614122916)
 
 It consists of a computer that controls the selection and timing of traffic movements in accordance to 
