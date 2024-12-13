@@ -30,6 +30,8 @@ hardware components and write a program to control the intelligent traffic signa
 layout of the Intelligent Traffic Signal Simulator is displayed in Figure 1. The blocks, which are labeled 
 N1, N2, N3, E1, E2, E3, S1 and W1 are the infrared object detectors.
 ![Screenshot (307)](https://github.com/user-attachments/assets/e594b175-3011-4904-b6a1-74f81f0f2718)
+
+
 It is often useful to be able to sequence through an arbitrary number of states, staying in each state 
 an arbitrary amount of time. For example, consider the set of traffic lights shown in Figure 2. The 
 lights are assumed to be at a four-way intersection with one street going northsouth and the other 
@@ -46,10 +48,13 @@ shown in Figure 3.
 To simulate these traffic lights we will use the red, yellow, and green LEDs connected to ld[7:2] on the 
 BASYS board and cycle through the six states shown in Table 1.
 ![Screenshot (308)](https://github.com/user-attachments/assets/d4bc3e46-8fda-43ca-88f5-379ba1b1dccb)
+
+
 A state diagram for controlling these traffic lights is shown in Figure 3. If we use a 3 Hz clock to drive 
 this state diagram then a delay of 1 second is achieved by staying in a state for three clock cycles. 
 Similarly, a delay of 5 second is achieved by staying in a state for fifteen clock cycles. The count 
 variable in Figure 3 will be reset to zero when moving to the next state after a timeout.
+
 ![Screenshot (309)](https://github.com/user-attachments/assets/7e4bbc17-a75e-42f7-aeef-7af27650108a)
 
 
